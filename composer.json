@@ -1,0 +1,15 @@
+{
+    "name": "hector/titos-framework",
+    "autoload": {
+        "psr-4": {
+            "Hector\\TitosFramework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HectorRC920",
+            "email": "hector.rubio.920@gmail.com"
+        }
+    ],
+    "require": {}
+}
