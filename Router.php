@@ -25,4 +25,11 @@ class Router {
   {
     $this->routes[HttpMethods::POST->value][$uri] = $action;
   }
+  public function put(string $uri, callable $action)
+  {
+    $this->routes[HttpMethods::PUT->value][$uri] = $action;
+  }
+  public function patch(string $uri, callable $action){
+    $this->routes[HttpMethods::PATCH->value][$uri] = $action;
+  }
 };
